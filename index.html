@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>QR Code Generator</h1>
+
+    <div class="form">
+      <input type="text" id="text" placeholder="Enter text, URL, Email, Phone...">
+
+      <label for="color">QR Color:</label>
+      <input type="color" id="color" value="#000000">
+
+      <label for="size">Size:</label>
+      <select id="size">
+        <option value="150">150x150</option>
+        <option value="250" selected>250x250</option>
+        <option value="400">400x400</option>
+      </select>
+
+      <button id="generate">Generate QR Code</button>
+      <button id="download" style="display:none;">Download QR Code</button>
+      <button id="clear" style="display:none;">Clear</button>
+    </div>
+
+    <div class="qr-code">
+      <img src="" alt="QR Code" id="qr-img">
+    </div>
+
+    <div class="history">
+      <h3>History</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
