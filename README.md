@@ -31,10 +31,11 @@ This project also supports **download, customization, and history tracking**.
 
 ## 📸 Project Screenshots & Demo
 
+## 1
 <img width="1257" height="528" alt="Screenshot 2025-09-29 081151QR Code 1" src="https://github.com/user-attachments/assets/ab059d8f-9fc3-4d7f-bd63-4ccf74bbe984" />
 
 
-
+## 2
 <img width="1241" height="569" alt="Screenshot 2025-09-29 081255QR Code 2" src="https://github.com/user-attachments/assets/69f486d4-984b-460d-9a38-abe3f31b3431" />
 
 
